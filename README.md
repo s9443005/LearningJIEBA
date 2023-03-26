@@ -1,15 +1,37 @@
 # LearningJIEBA
 # Python String Method
-* capitalize()第1個字母轉成大寫
-
-    'joseph shih'.capitalize()
-    'Joseph shih'
-
-* casefold()	Converts string into lower case
+<span style="color:blue">capitalize()</span>第1個字母轉成大寫
+```
+    >>> saying = 'you can\'t be perfect but you can be unique.'
+    >>> saying.capitalize()
+    "You can't be perfect but you can be unique."
+```
+* casefold()轉換成小寫，與lower()有些差異
 * center()	Returns a centered string
+```
+    >>> saying = 'I come, I see, I conquer.'
+    >>> saying.center(40,'-')
+    '-------I come, I see, I conquer.--------'
+```
 * count()	Returns the number of times a specified value occurs in a string
+```
+    >>> saying = 'I come, I see, I conquer.'
+    >>> saying.count('I')                   
+    3
+    >>> saying.count('i')
+    0
+```
 * encode()	Returns an encoded version of the string
 * endswith()	Returns true if the string ends with the specified value
+```
+    >>> saying = 'YOU CAN\'T BE PERFECT BUT YOU CAN BE UNIQUE.'
+    >>> saying.endswith('que')
+    False
+    >>> saying.endswith('QUE') 
+    False
+    >>> saying.endswith('.')   
+    True
+```
 * expandtabs()	Sets the tab size of the string
 * find()	Searches the string for a specified value and returns the position of where it was found
 * format()	Formats specified values in a string
@@ -30,6 +52,11 @@
 * join()	Converts the elements of an iterable into a string
 * ljust()	Returns a left justified version of the string
 * lower() 轉換成小寫
+```
+    >>> saying = 'YOU CAN\'T BE PERFECT BUT YOU CAN BE UNIQUE.'
+    >>> saying.lower()
+    "you can't be perfect but you can be unique."
+```
 * lstrip()	Returns a left trim version of the string
 * maketrans()	Returns a translation table to be used in translations
 * partition()	Returns a tuple where the string is parted into three parts
@@ -48,4 +75,9 @@
 * title()	Converts the first character of each word to upper case
 * translate()	Returns a translated string
 * upper()	轉換成大寫
+```
+    >>> saying = 'you can\'t be perfect but you can be unique.'
+    >>> saying.upper()
+    "YOU CAN'T BE PERFECT BUT YOU CAN BE UNIQUE."
+```
 * zfill()	Fills the string with a specified number of 0 values at the beginning
