@@ -1,6 +1,10 @@
 # LearningJIEBA
 # Python String Method
-* capitalize()	Converts the first character to upper case
+* capitalize()第1個字母轉成大寫
+
+    'joseph shih'.capitalize()
+    'Joseph shih'
+
 * casefold()	Converts string into lower case
 * center()	Returns a centered string
 * count()	Returns the number of times a specified value occurs in a string
@@ -25,7 +29,7 @@
 * isupper()	Returns True if all characters in the string are upper case
 * join()	Converts the elements of an iterable into a string
 * ljust()	Returns a left justified version of the string
-* lower()	Converts a string into lower case
+* lower() 轉換成小寫
 * lstrip()	Returns a left trim version of the string
 * maketrans()	Returns a translation table to be used in translations
 * partition()	Returns a tuple where the string is parted into three parts
@@ -43,5 +47,5 @@
 * swapcase()	Swaps cases, lower case becomes upper case and vice versa
 * title()	Converts the first character of each word to upper case
 * translate()	Returns a translated string
-* upper()	Converts a string into upper case
+* upper()	轉換成大寫
 * zfill()	Fills the string with a specified number of 0 values at the beginning
