@@ -37,14 +37,35 @@
 * format()	Formats specified values in a string
 * format_map()	Formats specified values in a string
 * index()	Searches the string for a specified value and returns the position of where it was found
-* isalnum()	Returns True if all characters in the string are alphanumeric
-* isalpha()	Returns True if all characters in the string are in the alphabet
+* isalnum()判斷字母或數字傳回真假
+```
+    >>> emailaccount = 'david@greatking.com'
+    >>> emailaccount.isalnum()
+    False
+    >>> emailaccount.isalpha() 
+    False
+    >>> emailaccount.islower() 
+    True
+    >>> emailaccount.isupper()
+    False
+```
+* isalpha()判斷字母傳回真假
 * isascii()	Returns True if all characters in the string are ascii characters
 * isdecimal()	Returns True if all characters in the string are decimals
 * isdigit()	Returns True if all characters in the string are digits
 * isidentifier()	Returns True if the string is an identifier
 * islower()	Returns True if all characters in the string are lower case
-* isnumeric()	Returns True if all characters in the string are numeric
+* isnumeric()判斷數字
+```
+    >>> X = 123
+    >>> S = '123'
+    >>> X.isnumeric()
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    AttributeError: 'int' object has no attribute 'isnumeric'
+    >>> S.isnumeric()
+    True
+```
 * isprintable()	Returns True if all characters in the string are printable
 * isspace()	Returns True if all characters in the string are whitespaces
 * istitle()	Returns True if the string follows the rules of a title
