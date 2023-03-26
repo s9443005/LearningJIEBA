@@ -1,6 +1,6 @@
-# LearningJIEBA
-# Python String Method
-<span style="color:blue">capitalize()</span>第1個字母轉成大寫
+# 學習JIEBA筆記
+## 我猜要先熟悉PYTHON的字串方法
+* <span style="color:red">capitalize()</span>第1個字母轉成大寫
 ```
     >>> saying = 'you can\'t be perfect but you can be unique.'
     >>> saying.capitalize()
