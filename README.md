@@ -84,7 +84,7 @@
     "you can't be perfect but you can be unique."
     >>>
 ```
-* lstrip()	Returns a left trim version of the string
+* lstrip()將字串左邊的指定字串消除
 ```
     >>> saying = ' You can\'t be perfect but you can be unique.'
     >>> print(saying.lstrip()) 
@@ -104,7 +104,7 @@
 * rpartition()	Returns a tuple where the string is parted into three parts
 * rsplit()	Splits the string at the specified separator, and returns a list
 * rstrip()	Returns a right trim version of the string
-* split()	Splits the string at the specified separator, and returns a list
+* split()斷開字串變成串列，有進階用法
 ```
     >>> saying = 'I come, I see, I conquer.'                                    
     >>> print(saying.split())
@@ -116,10 +116,32 @@
     >>>
 ```
 * splitlines()	Splits the string at line breaks and returns a list
-* startswith()	Returns true if the string starts with the specified value
+* startswith()判斷字串開始是否為某字串
+```
+    >>> saying = 'I come, I see, I conquer.'
+    >>> print(saying.startswith('i come'))
+    False
+    >>> print(saying.startswith('I come')) 
+    True
+    >>> print(saying.startswith('come'))   
+    False
+    >>>
+```
 * strip()	Returns a trimmed version of the string
-* swapcase()	Swaps cases, lower case becomes upper case and vice versa
-* title()	Converts the first character of each word to upper case
+* swapcase()大寫變小寫，小寫變大寫
+```
+    >>> saying = 'I come, I see, I conquer.'
+    >>> print(saying.swapcase())
+    i COME, i SEE, i CONQUER.
+    >>>
+```
+* title()字串標題化，每個單字首字母大寫
+```
+    >>> saying = 'I come, I see, I conquer.'
+    >>> print(saying.title())
+    I Come, I See, I Conquer.
+>>>
+```
 * translate()	Returns a translated string
 * upper()	轉換成大寫
 ```
