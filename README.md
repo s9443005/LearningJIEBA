@@ -5,6 +5,7 @@
     >>> saying = 'you can\'t be perfect but you can be unique.'
     >>> saying.capitalize()
     "You can't be perfect but you can be unique."
+    >>>
 ```
 * casefold()轉換成小寫，與lower()有些差異
 * center()	Returns a centered string
@@ -12,6 +13,7 @@
     >>> saying = 'I come, I see, I conquer.'
     >>> saying.center(40,'-')
     '-------I come, I see, I conquer.--------'
+    >>>
 ```
 * count()	Returns the number of times a specified value occurs in a string
 ```
@@ -20,6 +22,7 @@
     3
     >>> saying.count('i')
     0
+    >>>
 ```
 * encode()	Returns an encoded version of the string
 * endswith()	Returns true if the string ends with the specified value
@@ -48,6 +51,7 @@
     True
     >>> emailaccount.isupper()
     False
+    >>>
 ```
 * isalpha()判斷字母傳回真假
 * isascii()	Returns True if all characters in the string are ascii characters
@@ -65,6 +69,7 @@
     AttributeError: 'int' object has no attribute 'isnumeric'
     >>> S.isnumeric()
     True
+    >>>
 ```
 * isprintable()	Returns True if all characters in the string are printable
 * isspace()	Returns True if all characters in the string are whitespaces
@@ -77,8 +82,19 @@
     >>> saying = 'YOU CAN\'T BE PERFECT BUT YOU CAN BE UNIQUE.'
     >>> saying.lower()
     "you can't be perfect but you can be unique."
+    >>>
 ```
 * lstrip()	Returns a left trim version of the string
+```
+    >>> saying = ' You can\'t be perfect but you can be unique.'
+    >>> print(saying.lstrip()) 
+    You can't be perfect but you can be unique.
+    >>> print(saying.lstrip('You'))
+     You can't be perfect but you can be unique.
+    >>> print(saying.lstrip(' You'))
+    can't be perfect but you can be unique.
+    >>>
+```
 * maketrans()	Returns a translation table to be used in translations
 * partition()	Returns a tuple where the string is parted into three parts
 * replace()	Returns a string where a specified value is replaced with a specified value
@@ -89,6 +105,14 @@
 * rsplit()	Splits the string at the specified separator, and returns a list
 * rstrip()	Returns a right trim version of the string
 * split()	Splits the string at the specified separator, and returns a list
+```
+    >>> saying = 'I come, I see, I conquer.'                                    
+    >>> print(saying.split())
+    ['I', 'come,', 'I', 'see,', 'I', 'conquer.']
+    >>> print(saying.split(','))
+    ['I come', ' I see', ' I conquer.']
+    >>>
+```
 * splitlines()	Splits the string at line breaks and returns a list
 * startswith()	Returns true if the string starts with the specified value
 * strip()	Returns a trimmed version of the string
