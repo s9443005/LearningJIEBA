@@ -34,6 +34,7 @@
     False
     >>> saying.endswith('.')   
     True
+    >>>
 ```
 * expandtabs()	Sets the tab size of the string
 * find()	Searches the string for a specified value and returns the position of where it was found
@@ -140,7 +141,7 @@
     >>> saying = 'I come, I see, I conquer.'
     >>> print(saying.title())
     I Come, I See, I Conquer.
->>>
+    >>>
 ```
 * translate()	Returns a translated string
 * upper()	轉換成大寫
@@ -148,5 +149,6 @@
     >>> saying = 'you can\'t be perfect but you can be unique.'
     >>> saying.upper()
     "YOU CAN'T BE PERFECT BUT YOU CAN BE UNIQUE."
+    >>>
 ```
 * zfill()	Fills the string with a specified number of 0 values at the beginning
