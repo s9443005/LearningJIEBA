@@ -7,7 +7,7 @@
     "You can't be perfect but you can be unique."
     >>>
 ```
-* casefold()轉換成小寫，與lower()有些差異
+* casefold()轉換成小寫，與lower()有些差異，略
 * center()	Returns a centered string
 ```
     >>> saying = 'I come, I see, I conquer.'
