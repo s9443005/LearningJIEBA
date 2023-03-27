@@ -111,6 +111,8 @@
     ['I', 'come,', 'I', 'see,', 'I', 'conquer.']
     >>> print(saying.split(','))
     ['I come', ' I see', ' I conquer.']
+    >>> print(saying.split(',',1))
+    ['I come', ' I see, I conquer.']
     >>>
 ```
 * splitlines()	Splits the string at line breaks and returns a list
