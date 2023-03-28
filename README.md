@@ -136,9 +136,9 @@
     >>> saying = 'I come, I see, I conquer.'
     >>> print(saying.strip('I, '))
     come, I see, I conquer.
->>>
-> 怎麼好像跟W3SCHOOL教的不太一樣？
+    >>>
 ```
+> 上面怎麼好像跟W3SCHOOL教的不太一樣？
 * swapcase()大寫變小寫，小寫變大寫
 ```
     >>> saying = 'I come, I see, I conquer.'
