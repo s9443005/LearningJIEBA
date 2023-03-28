@@ -50,6 +50,16 @@
     >>>
 ```
 * format()	Formats specified values in a string
+```
+    'I come I see I conquer'
+    >>> "{} {}".format('I','come')
+    'I come'
+    >>> "{0} {1} {0} {2}".format('I','come','see')
+    'I come I see'
+    >>> "{0} {1} {0} {2} {0} {3}".format('I','come','see', 'conquer')
+    'I come I see I conquer'
+    >>>
+```
 * format_map()	Formats specified values in a string
 * index()	Searches the string for a specified value and returns the position of where it was found
 * isalnum()判斷字母或數字傳回真假
