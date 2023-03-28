@@ -38,6 +38,17 @@
 ```
 * expandtabs()	Sets the tab size of the string
 * find()	Searches the string for a specified value and returns the position of where it was found
+ ```
+    >>> saying = 'I come, I see, I conquer.'
+    >>> fstr = 'I '
+    >>> print(saying.find(fstr))
+    0
+    >>> print(saying.find(fstr, 5))
+    8
+    >>> print(saying.find(fstr, 10))
+    15
+    >>>
+```
 * format()	Formats specified values in a string
 * format_map()	Formats specified values in a string
 * index()	Searches the string for a specified value and returns the position of where it was found
