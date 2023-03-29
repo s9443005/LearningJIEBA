@@ -37,6 +37,17 @@
     >>>
 ```
 * expandtabs()	Sets the tab size of the string
+ ```
+    >>> saying = 'I come,\tI see,\tI conquer.'
+    >>> print(saying.expandtabs())
+    I come, I see,  I conquer.
+    >>> print(saying.expandtabs(2))
+    I come, I see,  I conquer.
+    >>> print(saying.expandtabs(3))
+    I come,  I see,   I conquer.
+    >>>
+    註：沒有參數是tab，有234是指幾個空格
+```
 * find()	Searches the string for a specified value and returns the position of where it was found
  ```
     >>> saying = 'I come, I see, I conquer.'
