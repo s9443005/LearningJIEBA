@@ -8,20 +8,26 @@
     >>>
 ```
 * casefold()轉換成小寫，與lower()有些差異，略
-* center()	Returns a centered string
+* center()將字放置中對齊補丁左右
 ```
     >>> saying = 'I come, I see, I conquer.'
     >>> saying.center(40,'-')
     '-------I come, I see, I conquer.--------'
     >>>
 ```
-* count()	Returns the number of times a specified value occurs in a string
+* count()計算子字串的個數
 ```
     >>> saying = 'I come, I see, I conquer.'
     >>> saying.count('I')                   
     3
     >>> saying.count('i')
     0
+    >>>print('IIIIIIIIIIII'.count('II'))
+    6
+    >>> print('IIIIIIIIIIIII'.count('II'))
+    6
+    >>> print('I I I I I I I I I'.count('I I'))
+    4
     >>>
 ```
 * encode()	Returns an encoded version of the string
