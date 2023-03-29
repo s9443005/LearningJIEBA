@@ -79,6 +79,14 @@
 ```
 * format_map()	Formats specified values in a string
 * index()	Searches the string for a specified value and returns the position of where it was found
+```
+    >>> saying = 'I come, I see, I conquer.'
+    >>> print(saying.index('see'))
+    10
+    >>>print(saying.index('I'))
+    0
+    >>>
+```
 * isalnum()判斷字母或數字傳回真假
 ```
     >>> emailaccount = 'david@greatking.com'
