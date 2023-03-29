@@ -121,6 +121,18 @@
 * isprintable()	Returns True if all characters in the string are printable
 * isspace()	Returns True if all characters in the string are whitespaces
 * istitle()	Returns True if the string follows the rules of a title
+```
+    >>> saying = 'I come, I see, I conquer.'
+    >>> print(saying.istitle())
+    False
+    >>> s ='One of My Best Friends'
+    >>> print(s.istitle())
+    False
+    >>> s ='One Of My Best Friends'
+    >>> print(s.istitle())
+    True
+    >>>
+```
 * isupper()	Returns True if all characters in the string are upper case
 * join()	Converts the elements of an iterable into a string
 * ljust()	Returns a left justified version of the string
